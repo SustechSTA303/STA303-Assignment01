@@ -10,13 +10,13 @@
 
 1. In this assignment, I disign experiments to compare the test perforamnce of 4 loss functions in multi-class classification task.  And loss functions are given specifically below:	
 
-	- MAE(L1) loss: `nn.L1Loss()`
+	- MAE(L1) loss: `criterion1 = nn.L1Loss()`
 
-	- CE (Cross-Entropy) Loss: `nn.CrossEntropyLoss()`
+	- CE (Cross-Entropy) Loss: `criterion2 = nn.CrossEntropyLoss()`
 
-	- Focal Loss (gamma=0.5): `FocalLoss(gamma=0.5, alpha=None)`
+	- Focal Loss (gamma=0.5): `criterion3 = FocalLoss(gamma=0.5, alpha=None)`
 
-	- Focal Loss (gamma=2): `FocalLoss(gamma=2, alpha=None)`
+	- Focal Loss (gamma=2): `criterion4 = FocalLoss(gamma=2, alpha=None)`
 
 		```python
 		class FocalLoss(nn.Module):
@@ -55,15 +55,21 @@
 
 	- `NUM_EPOCHS = 40`: The number of epochs, here is constant in 40 as the model can get converged.
 	- `BATCH_SIZE = 128`: The number of examples in each mini-batch, which is set to be 128 by default.
-	- `LEARNING_RATE = 1e-1`
+	- `LEARNING_RATE = 1e-1`: Used for SGD optimizer.
 	
 4. Optimizer: I use 2 optimizers to train and test the data for each loss functions respectively.
 
 	- SGD: `optimizer = optim.SGD(model.parameters(), lr=LEARNING_RATE, momentum=MOMENTUM)`
 	
 	- Adam: `optimizer = optim.Adam(model.parameters())`
-	
-		
+
+5. I encapsulate the processes of training model and testing model into a function `model_training(NUM_EPOCHS, EVAL_INTERVAL,SAVE_DIR,model, criterion, loss_name)`. For each loss function, I call the function with different `criterion` and `loss_name`.
+	- `model_training(NUM_EPOCHS,EVAL_INTERVAL, SAVE_DIR, ConvNet(), criterion1, "MAE (L1) Loss.csv")`
+    - `model_training(NUM_EPOCHS,EVAL_INTERVAL, SAVE_DIR, ConvNet(), criterion2, "CE (Cross-Entropy) Loss.csv")`
+    - `model_training(NUM_EPOCHS,EVAL_INTERVAL, SAVE_DIR, ConvNet(), criterion3, "Focal Loss (gamma=0.5).csv")`
+    - `model_training(NUM_EPOCHS,EVAL_INTERVAL, SAVE_DIR, ConvNet(), criterion4, "Focal Loss (gamma=2).csv")`
+    After runnning the `Assignment01.ipynb`, there will be 4 `.csv` files (corresponding to four loss functions) in `data_new` directory. Then going to `Assignment1_analyse.ipynb` for analysing.
+
 
 ## Data analyse
 

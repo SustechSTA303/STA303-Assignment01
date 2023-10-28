@@ -8,7 +8,7 @@
 
 ## Introduction
 
-1. In this assignment, I disign experiments to compare the test perforamnce of 4 loss functions in multi-class classification task.  And loss functions are given specifically below:	
+1. In this assignment, I design experiments to compare the test performance of 4 loss functions in multi-class classification task.  And loss functions are given specifically below:	
 
 	- MAE(L1) loss: `criterion1 = nn.L1Loss()`
 
@@ -69,7 +69,7 @@
     - `model_training(NUM_EPOCHS,EVAL_INTERVAL, SAVE_DIR, ConvNet(), criterion3, "Focal Loss (gamma=0.5).csv")`
     - `model_training(NUM_EPOCHS,EVAL_INTERVAL, SAVE_DIR, ConvNet(), criterion4, "Focal Loss (gamma=2).csv")`
 
-	After runnning the `Assignment01.ipynb`, there will be 4 `.csv` files (corresponding to four loss functions) in `data_new` directory. Then going to `Assignment1_analyse.ipynb` for analysing.
+	After running the `Assignment01.ipynb`, there will be 4 `.csv` files (corresponding to four loss functions) in `data_new` directory. Then going to `Assignment1_analyse.ipynb` for analyzing.
 	
 	
 
@@ -94,33 +94,33 @@ For each loss function, we have 12 lists to storage their expression abilities:
 
 ###  Accuracy
 
-1. From the picture below, except for `L1 Loss`, the testing accuracy of other 3 loss fucntions have an overall increasing trend. In addition,  we can also find that, to some extent, Adam optimizer has great advantages in improving the accuracy of the model.
+1. From the picture below, except for `L1 Loss`, the testing accuracy of other 3 loss functions have an overall increasing trend. In addition,  we can also find that, to some extent, Adam optimizer has great advantages in improving the accuracy of the model.
 
 ![Acc1](fig/Acc1.svg)
 
 > According to the figure, after referring some materials, I find that `L1 Loss` is not good at multi-classification. So I will not talk much about it in the second half of the report.
 
-2. Inspecting the picture,  there are same performances in distinict loss functions. 
+2. Inspecting the picture,  there are same performances in distinct loss functions. It is notable that, in SGD optimizer,  `Focal Loss(Gamma = 0.5)`has the highest accuracy, while in Adam, it is `CE Loss` that is greatest.
 
 ![Acc2](fig/Acc2.svg)
 
 ### Convergence Speed
 
-1. As presented in the diagram, for 3 loss functions, Adam optimizer has a better performance in convergence speed than SGD optimizer, which can make loss functions converge faster. More specifically, loss fucntion in Adam can be approximatelty converged in 15 epochs instead of nearly 25 epochs like SGD. However, the Adam comes to be more fluctuated than SGD in the second half of the epoches.
+1. As presented in the diagram, for 3 loss functions, Adam optimizer has a better performance in convergence speed than SGD optimizer, which can make loss functions converge faster. More specifically, loss function in Adam can be approximately converged in 15 epochs instead of nearly 25 epochs like SGD. However, the Adam comes to be more fluctuated than SGD in the second half of the epochs.
 
 <img src="fig/Con1.svg" alt="Con1" style="zoom:80%;" />
 
-2. In SGD optimizer, It can be found from the figure that the `Cross-Entropy Loss`is conveging faster than `Focal Loss(Gamma = 0.5)`and `Focal Loss(Gamma = 2)`.
+2. In SGD optimizer, It can be found from the figure that the `Focal Loss(Gamma = 0.5)`is converging faster than `Cross-Entropy Loss`and `Focal Loss(Gamma = 2)`.
 
 ![Con2](fig/Con2.svg)
 
 ### Overfitting and Generalization
 
-1. In each subgraph, the training loss and test loss decrease gradually with the increase of training rounds. This is because as the model is trained, the model gradually learns better feature representations, resulting in lower loss values. And for 3 distinct loss function, it is clear that all the testing losses are lower than the training loss, meaning that models have good performance in the generalization instead of overfitting (maybe it is just underfitting).
+1. In each sub graph, the training loss and test loss decrease gradually with the increase of training rounds. This is because as the model is trained, the model gradually learns better feature representations, resulting in lower loss values. And for 3 distinct loss function, it is clear that all the testing losses are lower than the training loss, meaning that models have good performance in the generalization instead of overfitting (maybe it is just underfitting).
 
 ![O1](fig/O1.svg)
 
-2. Then we need to note the difference between training losses and testing losses. The closer distance can get to 0, the more model will generalize. Hence, in SGD optimizer,  the generalization of `Focal Loss(Gamma = 0.5)` is remarkable, then `CE Entropy Loss`, `Focal Loss(Gamma = 2)`and follow. However, as for Adam optimizer, all three performed pretty well, none of them were particularly bad in generalization. 
+2. Then we need to note the difference between training losses and testing losses. The closer distance can get to 0, the more model will generalize. Hence, both in SGD and Adam optimizers,  the generalization of `Focal Loss(Gamma = 0.5)` is remarkable, then `CE Entropy Loss`, and `Focal Loss(Gamma = 2)`follows. 
 
 ![O2](fig/O2.svg)
 
@@ -128,14 +128,14 @@ For each loss function, we have 12 lists to storage their expression abilities:
 
 ###  Sensitivity
 
-1.  The picture below shows the changes between testing output from noise input and testing output from original input, which are calculated by `loss_noise - loss_no_noise`and `acc_noise - acc_no_noise`. Even though all 3 loss functions have inconsistent performance in value, they have same expression that change of testing accuracy in SGD optimizer is always negative while in Adam optimizer it is always postive. 
+1.  The picture below shows the changes between testing output from noise input and testing output from original input, which are calculated by `loss_noise - loss_no_noise`and `acc_noise - acc_no_noise`. Even though all 3 loss functions have inconsistent performance in value, they have same expression that change of testing accuracy in SGD optimizer is always negative while in Adam optimizer it is always positive. 
 
 	> To some degree, model in Adam optimizer have a excellent ability of generalization.
 	
 
 ![S1](fig/S1.svg)
 
-2. To test the sensitivity of model, I compute changes of accuracy of loss function between noise and no-noise. So the bigger variation (the change of acc is smaller)  indicates the model is more sensitive to noise.  Then, in this figure, we can distinguish that , in SGD optimizer`Focal Loss(Gamma = 2)`is the most sensitive, then `Cross Entropy Loss`, and`Focal Loss(Gamma = 0.5)`the last. 
+2. To test the sensitivity of model, I compute changes of accuracy of loss function between noise and no-noise. So the bigger variation indicates the model is more sensitive to noise.  Then, in this figure, we can distinguish that , in SGD optimizer,`Focal Loss(Gamma = 0.5)`is the most sensitive, then`Focal Loss(Gamma = 2)`, and`Cross Entropy Loss`the last. And in Adam optimizer, `CE Loss`also be  less sensitive.
 
 
 ![S2](fig/S2.svg)
@@ -148,29 +148,33 @@ In this assignment, I conducted experiments to compare the test performance of f
 
 The evaluation metrics used to quantify the performance of the models include accuracy, model convergence speed, overfitting and generalization, and sensitivity to noise. Here's a summary of the findings:
 
-- **Accuracy: **`Cross-Entropy Loss`achieved the highest testing accuracy among the four loss functions, while L1 Loss performed poorly in multi-class classification.
-- **Convergence Speed:** Adam showed faster convergence compared to SGD. Among the loss functions in SGD, `Cross-Entropy Loss` converged the fastest, followed by `Focal Loss (Gamma = 2)` and `Focal Loss (Gamma = 0.5)`.
+- **Accuracy: **`Focal Loss(Gamma = 0.5)`achieved the highest testing accuracy among the four loss functions in SGD optimizer, while L1 Loss performed poorly in multi-class classification.
+- **Convergence Speed:** Adam showed faster convergence compared to SGD. Among the loss functions in SGD, `Focal Loss(Gamma = 0.5)` converged the fastest, followed by `Focal Loss (Gamma = 2)` and `Cross-Entropy Loss`.
 - **Overfitting and Generalization**:
+	
 	- All three loss functions demonstrated good generalization as the testing losses were consistently lower than the training losses.
-	- In SGD optimizer, `Cross-Entropy Loss` exhibited the best generalization, followed by `Focal Loss (Gamma = 2)` and `Focal Loss (Gamma = 0.5)`. In Adam optimizer, all three loss functions showed strong generalization.
+	- Both in SGD and Adam optimizer, `Focal Loss (Gamma = 0.5)` exhibited the best generalization, followed by `Focal Loss (Gamma = 2)`and`Cross-Entropy Loss` .
 - **Sensitivity to Noise**:
-	- In SGD optimizer, the models were sensitive to noise, with `Cross-Entropy Loss` being the most sensitive, followed by `Focal Loss (Gamma = 0.5)`, and `Focal Loss (Gamma = 2)`.
-	- In Adam optimizer, the models showed less sensitivity to noise, with `Focal Loss (Gamma = 0.5)` being the most sensitive, followed by `Cross-Entropy Loss`, and` Focal Loss (Gamma = 2)`.
+	
+	- In SGD optimizer, the models were sensitive to noise,  with `Focal Loss (Gamma = 0.5)` being the most sensitive, followed by `Focal Loss (Gamma = 2)`and`Cross-Entropy Loss`.
+	- In Adam optimizer, the models showed less sensitivity to noise.
 	
 	> The sensitivity experiment needs improving much as I only introduce one kind of noise in normal distribution due to the time limit and more researches need to be conducted.
 
-The results suggest that `Cross-Entropy Loss` is generally more suitable for multi-class classification tasks, with Adam as the preferred optimizer due to its faster convergence and better generalization. 
+The results suggest that `Focal Loss (Gamma = 0.5)` is generally more suitable for multi-class classification tasks, with Adam as the preferred optimizer due to its faster convergence and less sensitive. 
 
 
 
-## A mistake I made
+## A mistake I made —— A ‘magic’ result
 
-> This segment is about a mistake happened before writting this report. And the above parts of this report are in right model  training procedures. 
+> This segment is about a mistake happened when I running my code, which presented me a  ‘magic’ result.
 
-After traing the model in SGD optimizer, I forgot to update model parameters so that the result in Adam optimizer is prominent. Adam is the optimizer that follows training. For this situation, I use two different optimizers, training on the same model, it seems to work better, as if model in SGD optimizer falls into a local optimum. 
+Before correcting my code, Adam is the optimizer behind SGD. And after training the model in SGD optimizer, I forgot to eliminate model parameters so that the result in Adam optimizer is prominent. 
+
+For this situation, I mistakenly make two different optimizers train on the identical model. And it seems to work better, as if model in SGD optimizer falls into a local optimum. 
 
 ![Acc1](A_mistake/fig/Acc1.svg)
 
-What’s more, the performance of `Focal Loss(Gamma = 0.5)`is extremely exceptional. It seems that `Focal Loss(Gamma =0.5)`is more suitable for the multi-classification task, which is contradict to the conclusion above. Anyway, more researches need to be conducted.
+What’s more, the performance of `Focal Loss(Gamma = 0.5)`is extremely exceptional. It seems that `Focal Loss(Gamma =0.5)`is more suitable for the multi-classification task and its superiority was disclosed by increasing training epochs. Anyway, more researches need to be conducted.
 
 ![Acc2](A_mistake/fig/Acc2.svg)

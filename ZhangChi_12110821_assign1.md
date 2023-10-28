@@ -68,8 +68,10 @@
     - `model_training(NUM_EPOCHS,EVAL_INTERVAL, SAVE_DIR, ConvNet(), criterion2, "CE (Cross-Entropy) Loss.csv")`
     - `model_training(NUM_EPOCHS,EVAL_INTERVAL, SAVE_DIR, ConvNet(), criterion3, "Focal Loss (gamma=0.5).csv")`
     - `model_training(NUM_EPOCHS,EVAL_INTERVAL, SAVE_DIR, ConvNet(), criterion4, "Focal Loss (gamma=2).csv")`
-    After runnning the `Assignment01.ipynb`, there will be 4 `.csv` files (corresponding to four loss functions) in `data_new` directory. Then going to `Assignment1_analyse.ipynb` for analysing.
 
+	After runnning the `Assignment01.ipynb`, there will be 4 `.csv` files (corresponding to four loss functions) in `data_new` directory. Then going to `Assignment1_analyse.ipynb` for analysing.
+	
+	
 
 ## Data analyse
 
@@ -98,30 +100,27 @@ For each loss function, we have 12 lists to storage their expression abilities:
 
 > According to the figure, after referring some materials, I find that `L1 Loss` is not good at multi-classification. So I will not talk much about it in the second half of the report.
 
-2. Inspecting the picture,  there are different performances in distinict optimizers. 
-	- In SGD optimizer, the accuracy rate of `Cross Entropy Loss `and `Focal Loss(Gamma = 0.5)`are larger than `Focal Loss(Gamma = 2)`. 
-	- And in Adam optimizer, `Cross Entropy Loss `and `Focal Loss(Gamma = 2)`have same expression power. Both of them have higher acceracy than `Focal Loss(Gamma = 0.5)`. 
-   
+2. Inspecting the picture,  there are same performances in distinict loss functions. 
 
 ![Acc2](fig/Acc2.svg)
 
 ### Convergence Speed
 
-1. As presented in the diagram, for 3 loss functions, Adam optimizer has a better performance in convergence speed than SGD optimizer, which can make loss functions converge faster. More specifically, loss fucntion in Adam can be approximatelty converged in 5 epochs instead of nearly 15 epochs in SGD. However, the Adam comes to be more fluctuated than SGD in the second half of the epoches.
+1. As presented in the diagram, for 3 loss functions, Adam optimizer has a better performance in convergence speed than SGD optimizer, which can make loss functions converge faster. More specifically, loss fucntion in Adam can be approximatelty converged in 15 epochs instead of nearly 25 epochs like SGD. However, the Adam comes to be more fluctuated than SGD in the second half of the epoches.
 
 <img src="fig/Con1.svg" alt="Con1" style="zoom:80%;" />
 
-2. In SGD optimizer, It can be found from the figure that the `Cross-Entropy Loss`is conveging fastest, then `Focal Loss(Gamma = 2)`and `Focal Loss(Gamma = 0.5)`.
+2. In SGD optimizer, It can be found from the figure that the `Cross-Entropy Loss`is conveging faster than `Focal Loss(Gamma = 0.5)`and `Focal Loss(Gamma = 2)`.
 
 ![Con2](fig/Con2.svg)
 
 ### Overfitting and Generalization
 
-1. In each subgraph, the training loss and test loss decrease gradually with the increase of training rounds. This is because as the model is trained, the model gradually learns better feature representations, resulting in lower loss values. And for 3 distinct loss function, it is clear that all the testing losses are lower than the training loss, meaning that models have good performance in the generalization instead of overfitting.
+1. In each subgraph, the training loss and test loss decrease gradually with the increase of training rounds. This is because as the model is trained, the model gradually learns better feature representations, resulting in lower loss values. And for 3 distinct loss function, it is clear that all the testing losses are lower than the training loss, meaning that models have good performance in the generalization instead of overfitting (maybe it is just underfitting).
 
 ![O1](fig/O1.svg)
 
-2. Then we need to note the difference between training losses and testing losses. The closer distance can get to 0, the more model will generalize. Hence, in SGD optimizer,  the generalization of `CE Entropy Loss` is remarkable, then `Focal Loss(Gamma = 2)`and `Focal Loss(Gamma = 0.5)`follow. However, as for Adam optimizer, all three performed pretty well, none of them were particularly bad in generalization. 
+2. Then we need to note the difference between training losses and testing losses. The closer distance can get to 0, the more model will generalize. Hence, in SGD optimizer,  the generalization of `Focal Loss(Gamma = 0.5)` is remarkable, then `CE Entropy Loss`, `Focal Loss(Gamma = 2)`and follow. However, as for Adam optimizer, all three performed pretty well, none of them were particularly bad in generalization. 
 
 ![O2](fig/O2.svg)
 
@@ -129,17 +128,18 @@ For each loss function, we have 12 lists to storage their expression abilities:
 
 ###  Sensitivity
 
-1.  The picture below shows the changes between testing output from noise input and testing output from original input, which are calculated by `loss_noise - loss_no_noise`and `acc_noise - acc_no_noise`. Even though all 3 loss functions have inconsistent performance in value, they have same expression that change of testing accuracy in SGD optimizer is  always negative while in Adam optimizer it is always postive. 
+1.  The picture below shows the changes between testing output from noise input and testing output from original input, which are calculated by `loss_noise - loss_no_noise`and `acc_noise - acc_no_noise`. Even though all 3 loss functions have inconsistent performance in value, they have same expression that change of testing accuracy in SGD optimizer is always negative while in Adam optimizer it is always postive. 
 
 	> To some degree, model in Adam optimizer have a excellent ability of generalization.
 	
 
 ![S1](fig/S1.svg)
 
-2. To test the sensitivity of model, I compute changes of accuracy of loss function between noise and no-noise. So the bigger variation (the change of acc is smaller)  indicates the model is more sensitive to noise.   Then, in this figure, we can distinguish that , in SGD optimizer`Cross Entropy Loss`is the most sensitive, then `Focal Loss(Gamma = 0.5)`, and `Focal Loss(Gamma = 2)`the last. While in Adam optimizer, the sensitivity  from high to low is `Focal Loss(Gamma = 0.5)`,`Cross Entropy Loss`,`Focal Loss(Gamma = 2)`.
+2. To test the sensitivity of model, I compute changes of accuracy of loss function between noise and no-noise. So the bigger variation (the change of acc is smaller)  indicates the model is more sensitive to noise.  Then, in this figure, we can distinguish that , in SGD optimizer`Focal Loss(Gamma = 2)`is the most sensitive, then `Cross Entropy Loss`, and`Focal Loss(Gamma = 0.5)`the last. 
 
 
 ![S2](fig/S2.svg)
+
 
 
 ## Summary
@@ -161,7 +161,11 @@ The evaluation metrics used to quantify the performance of the models include ac
 
 The results suggest that `Cross-Entropy Loss` is generally more suitable for multi-class classification tasks, with Adam as the preferred optimizer due to its faster convergence and better generalization. 
 
+
+
 ## A mistake I made
+
+> This segment is about a mistake happened before writting this report. And the above parts of this report are in right model  training procedures. 
 
 After traing the model in SGD optimizer, I forgot to update model parameters so that the result in Adam optimizer is prominent. Adam is the optimizer that follows training. For this situation, I use two different optimizers, training on the same model, it seems to work better, as if model in SGD optimizer falls into a local optimum. 
 

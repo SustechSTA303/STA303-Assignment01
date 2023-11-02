@@ -179,7 +179,7 @@ class FocalLoss(nn.Module):
 
 
     """
-    def __init__(self, class_num, alpha=None, gamma=2, size_average=True):
+    def __init__(self, class_num, alpha=None, gamma=2, eps=1e-9, size_average=True):
         super(FocalLoss, self).__init__()
         if alpha is None:
             self.alpha = Variable(torch.ones(class_num, 1))
@@ -189,6 +189,7 @@ class FocalLoss(nn.Module):
             else:
                 self.alpha = Variable(alpha)
         self.gamma = gamma
+        self.eps=eps
         self.class_num = class_num
         self.size_average = size_average
 
@@ -214,7 +215,7 @@ class FocalLoss(nn.Module):
         #print('probs size= {}'.format(probs.size()))
         #print(probs)
 
-        batch_loss = -alpha*(torch.pow((1-probs), self.gamma))*log_p 
+        batch_loss = -alpha*(torch.pow((1-probs+self.eps), self.gamma))*log_p 
         #print('-----bacth_loss------')
         #print(batch_loss)
 

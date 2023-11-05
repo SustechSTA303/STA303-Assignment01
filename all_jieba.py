@@ -110,7 +110,7 @@ data_1=pd.read_excel('/workspace/data/202309191744505585/demo.xlsx')
 for i in data_1.index.values:#获取行号的索引，并对其遍历
   val=data_1.loc[i,['唯一id','经营范围']]
   if isinstance(val[1],str):
-    dict_1[val[0]]=re.sub('',val[1])
+    dict_1[val[0]]=re.sub(p_1, '',val[1])
   else:
     dict_1[val[0]]=""
 

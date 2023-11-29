@@ -1,0 +1,478 @@
+Training Loss: 2.7594	Epoch: 1	Step: 10
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step10.pt
+Training Loss: 3.2237	Epoch: 1	Step: 20
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step20.pt
+Training Loss: 2.7525	Epoch: 1	Step: 30
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step30.pt
+Training Loss: 2.1841	Epoch: 1	Step: 40
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step40.pt
+Training Loss: 2.0067	Epoch: 1	Step: 50
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step50.pt
+Training Loss: 2.0419	Epoch: 1	Step: 60
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step60.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step10.pt
+Training Loss: 2.0861	Epoch: 1	Step: 70
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step70.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step20.pt
+Training Loss: 1.9770	Epoch: 1	Step: 80
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step80.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step30.pt
+Training Loss: 1.7967	Epoch: 1	Step: 90
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step90.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step40.pt
+Training Loss: 1.7807	Epoch: 1	Step: 100
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step100.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step50.pt
+Test Loss: 2.1484	Accuracy: 30.38%
+Training Loss: 1.8682	Epoch: 1	Step: 110
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step110.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step60.pt
+Training Loss: 1.4013	Epoch: 1	Step: 120
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step120.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step70.pt
+Training Loss: 1.8074	Epoch: 1	Step: 130
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step130.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step80.pt
+Training Loss: 1.8126	Epoch: 1	Step: 140
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step140.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step90.pt
+Training Loss: 1.4552	Epoch: 1	Step: 150
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step150.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step100.pt
+Training Loss: 1.7510	Epoch: 1	Step: 160
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step160.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step110.pt
+Training Loss: 1.4312	Epoch: 1	Step: 170
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step170.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step120.pt
+Training Loss: 1.7238	Epoch: 1	Step: 180
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step180.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step130.pt
+Training Loss: 1.4548	Epoch: 1	Step: 190
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step190.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step140.pt
+Training Loss: 1.4718	Epoch: 1	Step: 200
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step200.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step150.pt
+Test Loss: 1.6574	Accuracy: 44.77%
+Training Loss: 1.7497	Epoch: 1	Step: 210
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step210.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step160.pt
+Training Loss: 1.0193	Epoch: 1	Step: 220
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step220.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step170.pt
+Training Loss: 1.7204	Epoch: 1	Step: 230
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step230.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step180.pt
+Training Loss: 1.0487	Epoch: 1	Step: 240
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step240.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step190.pt
+Training Loss: 1.0187	Epoch: 1	Step: 250
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step250.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step200.pt
+Training Loss: 1.4489	Epoch: 1	Step: 260
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step260.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step210.pt
+Training Loss: 0.7674	Epoch: 1	Step: 270
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step270.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step220.pt
+Training Loss: 0.7809	Epoch: 1	Step: 280
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step280.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step230.pt
+Training Loss: 0.8865	Epoch: 1	Step: 290
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step290.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step240.pt
+Training Loss: 0.7515	Epoch: 1	Step: 300
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step300.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step250.pt
+Test Loss: 1.0710	Accuracy: 62.56%
+Training Loss: 0.6814	Epoch: 1	Step: 310
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step310.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step260.pt
+Training Loss: 0.8170	Epoch: 1	Step: 320
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step320.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step270.pt
+Training Loss: 1.0559	Epoch: 1	Step: 330
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step330.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step280.pt
+Training Loss: 0.6049	Epoch: 1	Step: 340
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step340.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step290.pt
+Training Loss: 0.7039	Epoch: 1	Step: 350
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step350.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step300.pt
+Training Loss: 0.6614	Epoch: 1	Step: 360
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step360.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step310.pt
+Training Loss: 0.4720	Epoch: 1	Step: 370
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step370.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step320.pt
+Training Loss: 0.5662	Epoch: 1	Step: 380
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step380.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step330.pt
+Training Loss: 0.5614	Epoch: 1	Step: 390
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step390.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step340.pt
+Training Loss: 0.4348	Epoch: 1	Step: 400
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step400.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step350.pt
+Test Loss: 0.6162	Accuracy: 79.82%
+Training Loss: 0.7264	Epoch: 1	Step: 410
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step410.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step360.pt
+Training Loss: 0.4762	Epoch: 1	Step: 420
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step420.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step370.pt
+Training Loss: 0.4909	Epoch: 1	Step: 430
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step430.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step380.pt
+Training Loss: 0.5058	Epoch: 1	Step: 440
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step440.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step390.pt
+Training Loss: 0.3415	Epoch: 1	Step: 450
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step450.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step400.pt
+Training Loss: 0.4225	Epoch: 1	Step: 460
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step460.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step410.pt
+Training Loss: 0.6348	Epoch: 1	Step: 470
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step470.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step420.pt
+Training Loss: 0.3659	Epoch: 1	Step: 480
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step480.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step430.pt
+Training Loss: 0.3021	Epoch: 1	Step: 490
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step490.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step440.pt
+Training Loss: 0.2107	Epoch: 1	Step: 500
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step500.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step450.pt
+Test Loss: 0.4142	Accuracy: 87.49%
+Training Loss: 0.4712	Epoch: 1	Step: 510
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step510.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step460.pt
+Training Loss: 0.4961	Epoch: 1	Step: 520
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step520.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step470.pt
+Training Loss: 0.1737	Epoch: 1	Step: 530
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step530.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step480.pt
+Training Loss: 0.2989	Epoch: 1	Step: 540
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step540.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step490.pt
+Training Loss: 0.1636	Epoch: 1	Step: 550
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step550.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step500.pt
+Training Loss: 0.3557	Epoch: 1	Step: 560
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step560.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step510.pt
+Training Loss: 0.3428	Epoch: 1	Step: 570
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step570.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step520.pt
+Training Loss: 0.4532	Epoch: 1	Step: 580
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step580.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step530.pt
+Training Loss: 0.3175	Epoch: 1	Step: 590
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step590.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step540.pt
+Training Loss: 0.1783	Epoch: 1	Step: 600
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step600.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step550.pt
+Test Loss: 0.2795	Accuracy: 91.75%
+Training Loss: 0.1371	Epoch: 1	Step: 610
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step610.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step560.pt
+Training Loss: 0.4566	Epoch: 1	Step: 620
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step620.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step570.pt
+Training Loss: 0.1321	Epoch: 1	Step: 630
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step630.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step580.pt
+Training Loss: 0.2651	Epoch: 1	Step: 640
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step640.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step590.pt
+Training Loss: 0.1973	Epoch: 1	Step: 650
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step650.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step600.pt
+Training Loss: 0.2021	Epoch: 1	Step: 660
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step660.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step610.pt
+Training Loss: 0.2264	Epoch: 1	Step: 670
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step670.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step620.pt
+Training Loss: 0.2493	Epoch: 1	Step: 680
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step680.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step630.pt
+Training Loss: 0.1615	Epoch: 1	Step: 690
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step690.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step640.pt
+Training Loss: 0.3174	Epoch: 1	Step: 700
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step700.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step650.pt
+Test Loss: 0.2178	Accuracy: 93.72%
+Training Loss: 0.1110	Epoch: 1	Step: 710
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step710.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step660.pt
+Training Loss: 0.1045	Epoch: 1	Step: 720
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step720.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step670.pt
+Training Loss: 0.2152	Epoch: 1	Step: 730
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step730.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step680.pt
+Training Loss: 0.1954	Epoch: 1	Step: 740
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step740.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step690.pt
+Training Loss: 0.0737	Epoch: 1	Step: 750
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step750.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step700.pt
+Training Loss: 0.1438	Epoch: 1	Step: 760
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step760.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step710.pt
+Training Loss: 0.1116	Epoch: 1	Step: 770
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step770.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step720.pt
+Training Loss: 0.1026	Epoch: 1	Step: 780
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step780.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step730.pt
+Training Loss: 0.1083	Epoch: 1	Step: 790
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step790.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step740.pt
+Training Loss: 0.1185	Epoch: 1	Step: 800
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step800.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step750.pt
+Test Loss: 0.2014	Accuracy: 93.82%
+Training Loss: 0.2383	Epoch: 1	Step: 810
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step810.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step760.pt
+Training Loss: 0.0427	Epoch: 1	Step: 820
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step820.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step770.pt
+Training Loss: 0.0587	Epoch: 1	Step: 830
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step830.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step780.pt
+Training Loss: 0.0683	Epoch: 1	Step: 840
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step840.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step790.pt
+Training Loss: 0.0584	Epoch: 1	Step: 850
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step850.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step800.pt
+Training Loss: 0.0353	Epoch: 1	Step: 860
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step860.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step810.pt
+Training Loss: 0.0583	Epoch: 1	Step: 870
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step870.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step820.pt
+Training Loss: 0.1086	Epoch: 1	Step: 880
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step880.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step830.pt
+Training Loss: 0.1256	Epoch: 1	Step: 890
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step890.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step840.pt
+Training Loss: 0.4173	Epoch: 1	Step: 900
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step900.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step850.pt
+Test Loss: 0.1507	Accuracy: 95.51%
+Training Loss: 0.0873	Epoch: 1	Step: 910
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step910.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step860.pt
+Training Loss: 0.0676	Epoch: 1	Step: 920
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step920.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step870.pt
+Training Loss: 0.0431	Epoch: 1	Step: 930
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step930.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step880.pt
+Training Loss: 0.0192	Epoch: 1	Step: 940
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step940.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step890.pt
+Training Loss: 0.1720	Epoch: 1	Step: 950
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step950.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step900.pt
+Training Loss: 0.1070	Epoch: 1	Step: 960
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step960.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step910.pt
+Training Loss: 0.0372	Epoch: 1	Step: 970
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step970.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step920.pt
+Training Loss: 0.0489	Epoch: 1	Step: 980
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step980.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step930.pt
+Training Loss: 0.0958	Epoch: 1	Step: 990
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step990.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step940.pt
+Training Loss: 0.1248	Epoch: 1	Step: 1000
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1000.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step950.pt
+Test Loss: 0.1365	Accuracy: 95.97%
+Training Loss: 0.1400	Epoch: 1	Step: 1010
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1010.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step960.pt
+Training Loss: 0.0112	Epoch: 1	Step: 1020
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1020.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step970.pt
+Training Loss: 0.0603	Epoch: 1	Step: 1030
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1030.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step980.pt
+Training Loss: 0.0704	Epoch: 1	Step: 1040
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1040.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step990.pt
+Training Loss: 0.2942	Epoch: 1	Step: 1050
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1050.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1000.pt
+Training Loss: 0.0693	Epoch: 1	Step: 1060
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1060.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1010.pt
+Training Loss: 0.2747	Epoch: 1	Step: 1070
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1070.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1020.pt
+Training Loss: 0.1987	Epoch: 1	Step: 1080
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1080.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1030.pt
+Training Loss: 0.3220	Epoch: 1	Step: 1090
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1090.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1040.pt
+Training Loss: 0.1021	Epoch: 1	Step: 1100
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1100.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1050.pt
+Test Loss: 0.1234	Accuracy: 96.45%
+Training Loss: 0.2213	Epoch: 1	Step: 1110
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1110.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1060.pt
+Training Loss: 0.0589	Epoch: 1	Step: 1120
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1120.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1070.pt
+Training Loss: 0.2389	Epoch: 1	Step: 1130
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1130.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1080.pt
+Training Loss: 0.0403	Epoch: 1	Step: 1140
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1140.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1090.pt
+Training Loss: 0.0499	Epoch: 1	Step: 1150
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1150.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1100.pt
+Training Loss: 0.0753	Epoch: 1	Step: 1160
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1160.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1110.pt
+Training Loss: 0.1850	Epoch: 1	Step: 1170
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1170.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1120.pt
+Training Loss: 0.0400	Epoch: 1	Step: 1180
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1180.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1130.pt
+Training Loss: 0.1026	Epoch: 1	Step: 1190
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1190.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1140.pt
+Training Loss: 0.0545	Epoch: 1	Step: 1200
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1200.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1150.pt
+Test Loss: 0.1162	Accuracy: 96.49%
+Training Loss: 0.1364	Epoch: 1	Step: 1210
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1210.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1160.pt
+Training Loss: 0.0963	Epoch: 1	Step: 1220
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1220.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1170.pt
+Training Loss: 0.0268	Epoch: 1	Step: 1230
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1230.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1180.pt
+Training Loss: 0.0366	Epoch: 1	Step: 1240
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1240.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1190.pt
+Training Loss: 0.0743	Epoch: 1	Step: 1250
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1250.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1200.pt
+Training Loss: 0.0163	Epoch: 1	Step: 1260
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1260.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1210.pt
+Training Loss: 0.0220	Epoch: 1	Step: 1270
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1270.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1220.pt
+Training Loss: 0.3231	Epoch: 1	Step: 1280
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1280.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1230.pt
+Training Loss: 0.1316	Epoch: 1	Step: 1290
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1290.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1240.pt
+Training Loss: 0.1155	Epoch: 1	Step: 1300
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1300.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1250.pt
+Test Loss: 0.1016	Accuracy: 96.90%
+Training Loss: 0.3341	Epoch: 1	Step: 1310
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1310.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1260.pt
+Training Loss: 0.1610	Epoch: 1	Step: 1320
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1320.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1270.pt
+Training Loss: 0.0216	Epoch: 1	Step: 1330
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1330.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1280.pt
+Training Loss: 0.0547	Epoch: 1	Step: 1340
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1340.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1290.pt
+Training Loss: 0.0407	Epoch: 1	Step: 1350
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1350.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1300.pt
+Training Loss: 0.0590	Epoch: 1	Step: 1360
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1360.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1310.pt
+Training Loss: 0.0386	Epoch: 1	Step: 1370
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1370.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1320.pt
+Training Loss: 0.2797	Epoch: 1	Step: 1380
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1380.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1330.pt
+Training Loss: 0.0060	Epoch: 1	Step: 1390
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1390.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1340.pt
+Training Loss: 0.1783	Epoch: 1	Step: 1400
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1400.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1350.pt
+Test Loss: 0.1032	Accuracy: 96.86%
+Training Loss: 0.0068	Epoch: 1	Step: 1410
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1410.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1360.pt
+Training Loss: 0.0222	Epoch: 1	Step: 1420
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1420.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1370.pt
+Training Loss: 0.1271	Epoch: 1	Step: 1430
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1430.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1380.pt
+Training Loss: 0.1500	Epoch: 1	Step: 1440
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1440.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1390.pt
+Training Loss: 0.1053	Epoch: 1	Step: 1450
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1450.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1400.pt
+Training Loss: 0.0182	Epoch: 1	Step: 1460
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1460.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1410.pt
+Training Loss: 0.0136	Epoch: 1	Step: 1470
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1470.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1420.pt
+Training Loss: 0.0464	Epoch: 1	Step: 1480
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1480.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1430.pt
+Training Loss: 0.2420	Epoch: 1	Step: 1490
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1490.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1440.pt
+Training Loss: 0.1936	Epoch: 1	Step: 1500
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1500.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1450.pt
+Test Loss: 0.1216	Accuracy: 96.29%
+Training Loss: 0.0698	Epoch: 1	Step: 1510
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1510.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1460.pt
+Training Loss: 0.2332	Epoch: 1	Step: 1520
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1520.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1470.pt
+Training Loss: 0.0134	Epoch: 1	Step: 1530
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1530.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1480.pt
+Training Loss: 0.0081	Epoch: 1	Step: 1540
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1540.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1490.pt
+Training Loss: 0.2259	Epoch: 1	Step: 1550
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1550.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1500.pt
+Training Loss: 0.2318	Epoch: 1	Step: 1560
+Saved checkpoint at /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1560.pt
+Removed old checkpoint: /autodl-tmp/STA303-Assignment01/ViT_checkpoint/model_checkpoint_epoch1_step1510.pt
